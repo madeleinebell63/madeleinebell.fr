@@ -197,3 +197,8 @@ dl.facts dd{margin:0}
   .hero h1,.end h2{white-space:normal}
 }
 @media (prefers-reduced-motion:reduce){.hero-img img{animation:none}}
+
+.end-copy{display:grid;gap:28px;align-content:start}
+.cta{margin:0}
+.cta a{display:inline-block;border:1px solid var(--black);padding:14px 22px;text-decoration:none;color:var(--black);letter-spacing:.08em;text-transform:uppercase;transition:background .2s,color .2s}
+.cta a:hover{background:var(--black);color:var(--bone)}
